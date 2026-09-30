@@ -1,0 +1,32 @@
+[project]
+name = "playground-s6e10"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Nicolás Barceló", email = "ferreret@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "kaggle>=2.2.4",
+    "lightgbm>=4.7.0",
+    "matplotlib>=3.11.2",
+    "pandas>=3.0.6",
+    "scikit-learn>=1.9.1",
+    "shap>=0.52.0",
+]
+
+[project.scripts]
+playground-s6e10 = "playground_s6e10:main"
+
+[build-system]
+requires = ["uv_build>=0.12.21,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.4.0",
+    "jupyterlab>=4.6.4",
+    "nbconvert>=7.17.1",
+    "nbformat>=5.11.1",
+]
