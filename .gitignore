@@ -8,3 +8,18 @@ wheels/
 
 # Virtual environments
 .venv
+
+data/
+submissions/
+notebooks/submission.csv
+experiments/outputs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local tooling and private instructions
+.claude/
+.kilo/
+.vscode/
+.idea/
+CLAUDE.md
