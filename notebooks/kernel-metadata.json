@@ -1,0 +1,14 @@
+{
+  "id": "nicolsbarcel/s6e10-step-by-step-every-concept-explained",
+  "title": "S6E10 Step by Step: Every Concept Explained",
+  "code_file": "s6e10-step-by-step.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": false,
+  "enable_gpu": false,
+  "enable_internet": false,
+  "dataset_sources": ["arseniyshutko/binary-aviation-satisfaction-129k"],
+  "competition_sources": ["playground-series-s6e10"],
+  "kernel_sources": [],
+  "model_sources": []
+}
