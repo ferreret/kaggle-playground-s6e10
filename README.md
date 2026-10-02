@@ -6,6 +6,8 @@ Work for the [Playground Series S6E10](https://www.kaggle.com/competitions/playg
 The deliverable is one public notebook that solves the problem from scratch and explains every concept the first
 time it appears: [`notebooks/s6e10-step-by-step.ipynb`](notebooks/s6e10-step-by-step.ipynb).
 
+**Main notebook on Kaggle:** [S6E10 Step by Step: Every Concept Explained](https://www.kaggle.com/code/nicolsbarcel/s6e10-step-by-step-every-concept-explained)
+
 ## Results
 
 5-fold stratified CV (seed 42), same folds for every model.
@@ -34,6 +36,7 @@ time it appears: [`notebooks/s6e10-step-by-step.ipynb`](notebooks/s6e10-step-by-
 
 ```
 notebooks/s6e10-step-by-step.ipynb   the notebook that gets published
+notebooks/kernel-metadata.json       Kaggle publishing settings (title, inputs)
 experiments/                          numbered scratch experiments (in Spanish), not published
 src/playground_s6e10/plots.py         shareable chart style
 data/                                 Kaggle data (git-ignored)
